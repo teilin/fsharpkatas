@@ -13,3 +13,7 @@ module FizzBuzz =
     [a..b]
     |> List.map fizzBuzz
     |> List.reduce (sprintf "%s\r\n%s")
+
+module RunFizzBuzz =
+  let run =
+    printf "Test"
